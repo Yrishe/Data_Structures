@@ -16,5 +16,6 @@
 <ul>
   <li>Bubble Sort</li>
   <li>Insertion Sort (on Stack)</li>
+  <li>Selection Sort</li>
 </ul>
 <hr />
