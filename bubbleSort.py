@@ -7,12 +7,12 @@ def swap(arr, x, y):
 
 def opt_bubble_sort(arr):
     n = len(arr)
-    for i in range(n):
+    for i in range(n): # determines the range
         swapped = False
         #print('this is i: ',i)
-        for j in range(0, n-i-1): # determines the range
+        for j in range(0, n-i-1): # performs the search
            #print('this is j: ',j)
-           if arr[j] > arr[j+1]: # performs the search
+           if arr[j] > arr[j+1]: 
                swap(arr, j, j+1)
                swapped = True
         if not swapped:
