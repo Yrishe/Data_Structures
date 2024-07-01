@@ -1,11 +1,5 @@
 '''
 Bubble Sort - Revision and improving my capability
-
-Errors: swap function requires an array to be parsed to be able to
-modify its elements inside the bubble sort function
-
-the firs loop determines the range for the search
-the second loop do the actual search within the range
 '''
 
 def swap(arr, x, y):
@@ -16,9 +10,9 @@ def opt_bubble_sort(arr):
     for i in range(n):
         swapped = False
         #print('this is i: ',i)
-        for j in range(0, n-i-1):
+        for j in range(0, n-i-1): # determines the range
            #print('this is j: ',j)
-           if arr[j] > arr[j+1]:
+           if arr[j] > arr[j+1]: # performs the search
                swap(arr, j, j+1)
                swapped = True
         if not swapped:
