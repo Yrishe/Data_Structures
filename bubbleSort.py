@@ -12,7 +12,7 @@ def opt_bubble_sort(arr):
         #print('this is i: ',i)
         for j in range(0, n-i-1): # performs the search
            #print('this is j: ',j)
-           if arr[j] > arr[j+1]: 
+           if arr[j] > arr[j+1]: # if left > right: swap - ascending order
                swap(arr, j, j+1)
                swapped = True
         if not swapped:
