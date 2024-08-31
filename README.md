@@ -1,5 +1,6 @@
 # Data_Structures
-<p>This is a starting point for a series of revision and practice of data structures. Beginnig with linear data structure:</p>
+<p>This is a starting point for a series of revision and practice of data structures.</p>
+<p>Data structures:</p>
 <ul>
   <li>Queue </li>
   <li>Stack </li>
